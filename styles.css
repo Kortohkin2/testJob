@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+    justify-content: center;
+
+    background-color: #EDF6FF;
+}
+.closet{
+    width: 211.37px;
+    height: 431.35px;
+    background-image: url("./content/cassa.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.cart{
+    margin-top: 343.97px;
+    margin-left: 12px;
+    margin-right: 11.92px;
+    z-index: 1;
+}
