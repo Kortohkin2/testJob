@@ -1,6 +1,5 @@
 body{
     background-color: black;
-;
 }
 .main{
     display: flex;
@@ -12,7 +11,6 @@ body{
     height: 600px;
     border: 1px solid black;
     justify-content: center;
-
     background-color: #EDF6FF;
 }
 .closet{
@@ -21,13 +19,74 @@ body{
     background-image: url("./content/cassa.png");
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     margin-top: 28px;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-cart{
+    margin-top: 343.97px;
+    z-index: 1;
 }
 
 .cart{
-    margin-top: 343.97px;
-    margin-left: 12px;
-    margin-right: 11.92px;
     z-index: 1;
+}
+.shelf{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottle{
+    width: 37px;
+    height: 124.12px;
+
+}
+
+.milk{
+    margin-top: 31px;
+    margin-left: 5px;
+}
+.jam{
+    margin-top: 80px;
+    margin-left: 2px;
+}
+.cheese{
+    margin-top: 89px;
+    margin-left: 9px;
+}
+
+.second{
+   margin-top: 40px;
+
+}
+.chicken{
+    margin-left: 2px;
+}
+.mac{
+    margin-top: 9px;
+    margin-left: 2px;
+}
+
+.third{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bananas{
+    margin-top: 28px;
+}
+
+.apple{
+    margin-top: 39px;
+}
+
+.onion{
+    margin-top: 30px;
 }
